@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Stop Watch</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<h1>STOP WATCH</h1>
+    <div class="controls">
+
+      <button type="button" class="start" onclick="start ()">Start</button>
+      <button type="button" class="pause" onclick="pause ()">Pause</button>
+      <button type="button" class="stop" onclick="stop ()">Stop</button>
+      <button type="button" class="restart" onclick="restart ()">Restart</button>
+      <button type="button" class="lap" onclick="lap ()">Lap</button>
+      <button type="button" onclick="resetLaps ()">Reset Laps</button>
+
+    </div>
+    <div class="stopwatch">00:00:00</div>
+    <div class="list">
+      <ol class="laps" id="ordered"></ol>
+
+    </div>
+
+
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
